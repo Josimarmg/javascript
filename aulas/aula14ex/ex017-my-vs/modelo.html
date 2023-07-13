@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício | Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="">Número: </label>
+                <input type="number" name="num" id="txtn">
+                <button class="botao" onclick="tabuada()">Gerar Tabuada</button> <br>
+
+                <label class="operador">Operador: </label>
+                <label for="adi">+</label><input type="radio" id="adi" name="sinais" class="sinais" value="+" checked>
+                <label for="sub">&minus;</label><input type="radio" id="sub" name="sinais" class="sinais" value="-">
+                <label for="mult">&times;</label><input type="radio" id="mult" name="sinais" class="sinais" value="x">
+                <label for="divi">&divide;</label><input type="radio" id="divi" name="sinais" class="sinais" value="/">
+                
+            </div>
+            <div id="tabu">
+                <select name="tabuada" id="seltab" size="10">
+                    <option>Digite um número acima.</option>
+                </select>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <a href="http://www.cursoemvideo.com" target="_blank">&copy; CursoemVideo</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

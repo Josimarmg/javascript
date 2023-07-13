@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background: #F2E088;
+    color: white;
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+header {
+    color: white;
+}
+
+section {
+    background: white;
+    color: black;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.360);
+    padding: 15px;
+    margin: auto;
+}
+
+div {
+    padding: 8px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#saudacao {
+    font: bold 1em Arial;
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+footer {
+    font-style: italic;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

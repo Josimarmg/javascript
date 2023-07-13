@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(70, 165, 236);
+    color: white;
+    font: normal 15pt Arial;
+    text-align: left;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    color: black;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.360);
+    padding: 15px;
+    margin: auto;
+}
+
+.operador{
+    font: normal 0.8em 'Arial';
+}
+
+.sinais {
+    width: 15px;
+    height: 15px;
+}
+
+.sinais:hover, .botao {
+    cursor: pointer;
+}
+
+#tabu {
+    margin-top: 2px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
